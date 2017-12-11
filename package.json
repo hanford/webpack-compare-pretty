@@ -1,6 +1,6 @@
 {
   "name": "webpack-compare-pretty",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compares file sizes between two stats.json objects. Useful for comparing results of different configurations.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
     "commander": "~2.9.0",
     "lodash": "~4.17.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hanford/webpack-compare-pretty.git"
