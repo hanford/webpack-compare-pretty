@@ -1,0 +1,34 @@
+{
+  "name": "webpack-compare-pretty",
+  "version": "0.2.1",
+  "description": "Compares file sizes between two stats.json objects. Useful for comparing results of different configurations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "webpack-compare": "index.js"
+  },
+  "keywords": [
+    "webpack",
+    "compare",
+    "build"
+  ],
+  "author": "Jack Hanford <jackhanford@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "~1.1.3",
+    "commander": "~2.9.0",
+    "lodash": "~4.17.4"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanford/webpack-compare-pretty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanford/webpack-compare-pretty/issues"
+  },
+  "homepage": "https://github.com/hanford/webpack-compare-pretty#readme"
+}
