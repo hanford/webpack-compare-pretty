@@ -6,7 +6,7 @@ let program = require('commander'),
     _ = require('lodash');
 
 program
-    .arguments('<old> <new>')
+    .arguments('<new> <old>')
     .option('-o, --output <path>', 'Path to output file to. Defaults to compare/')
     .action(function (oldStats, newStats) {
         let output = program.output || 'compare/',
